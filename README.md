@@ -48,8 +48,8 @@ ___
 |  |  | ***Vendor Model*** |  |  |
 | 06 | Return vendor's ID | vendor | 1 | ✅ |
 | 07 | Return list of Vendors | vendor1, vendor2 | List{vendor1, vendor2} | ✅   |
-| 08 | Find Vendor by Id | find(id = 2) | vendor2 | ❌  |
-| 09 | Associate order with Vendor | order1, vendor1 | vendor1(order1) | ❌  |
+| 08 | Find Vendor by Id | find(id = 2) | vendor2 | ✅ |
+| 09 | Associate order with Vendor | order1, vendor1 | vendor1(order1) | ❌ |
 
 
 </details>
