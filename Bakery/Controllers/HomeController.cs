@@ -1,12 +1,16 @@
 using System.Collections.Generic;
 using System;
 using Microsoft.AspNetCore.Mvc;
-using Music.Models;
+using Bakery.Models;
 
-namespace Music.Controllers
+namespace Bakery.Controllers
 {
   public class HomeController: Controller
   {
-    
+    [HttpGet("/")]
+    public ActionResult Index()
+    {
+      return View();
+    }
   }
 }
