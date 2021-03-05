@@ -20,14 +20,14 @@ ___
 
 ## 🔧 *Setup/Installation instructions:*
 #### 🌐 From the web:
-* Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/Epicodus_Project7.git).
+* Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/Epicodus_Project8.git).
 * * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
 
 <img src="https://i.imgur.com/tZKvGne.gif" alt="download zip gif" height="200"/>
 
 * Unzip the file, navigate to the `Bakery/Models` directory to check code or to the `Bakery.Tests/ModelTests` directory to see tests.
 #### ⚙️ From the terminal: 
-* Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/Epicodus_Project7.git` in your terminal or GitBash
+* Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/Epicodus_Project8.git` in your terminal or GitBash
 * Navigate to the downloaded folder using ***cd*** command
 * Execute **code .** command in your terminal and it will open all source code in your code editor.    
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running `dotnet --version` in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet).*
@@ -38,19 +38,14 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------: | :-------------: |
-| 01 | create a constractor for order w/properties| "Bread" | Title: Bread | ✅ |
-| 02 | create a constractor for vendor | "AMC" | Name: AMC |✅ |
-<!-- | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| 5 | ❌  |
-| 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| 2 | ✅ |
-| 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| 7 | ✅ |
-| 06 | if user inserts 2 loaves of bread display 10 | Bread:2 Pastry: 0 | 10  | ✅|
-| 07 | if user inserts 2 pastries display 4 | Bread:0 Pastry: 2 | 4  |✅ |
-| 08 | if user inserts 2 pastries and 2 loaves of bread display 14 | Bread:2 Pastry: 2 | 14  | ✅|
-| 09 | if user inserts 3 loaves of bread display 10| Bread: 3 Pastry: 0  | 10 | ✅|
-| 10 | if user inserts 3 pastries display 5| Bread: 0 Pastry: 3  | 5 | ✅|
-| 11 | if user inserts 3 loaves of bread and 3 pastries display 15| Bread: 3 Pastry: 3  | 15 | ✅ |
-| 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | 35 | ✅|
-| 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | 17 | ✅| -->
+| 01 | Create a constractor for order w/properties| "Bread" | Title: Bread | ✅ |
+| 02 | Create a constractor for vendor | "AMC" | Name: AMC |✅ |
+| 03 | Return order's ID | order | 1 | ❌  |
+| 04 | Set description for an order, price and date of order | order("Bread", "French bread 5 loaves", "3/05", 22)| Price: 22 | ❌  |
+| 05 | Return list of orders | order1, order2 | List {order1, order2} | ❌  |
+| 06 | Find an order by Id | find(id = 2) | order2 | ❌ |
+| 06 |  | |  | ❌  |
+
 
 </details>
 
