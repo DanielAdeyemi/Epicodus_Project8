@@ -32,9 +32,9 @@ namespace Bakery.Models
       return _instances;
     }
 
-    public static Order Find(int searcId)
+    public static Order Find(int searchId)
     {
-      return _instances[0];
+      return _instances[searchId - 1];
     }
   }
 }
