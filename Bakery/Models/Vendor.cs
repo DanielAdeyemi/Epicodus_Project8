@@ -23,5 +23,10 @@ namespace Bakery.Models
     {
       _instances.Clear();
     }
+
+    public static List<Vendor> GetAll()
+    {
+      return new List<Vendor> {};
+    }
   }
 }
