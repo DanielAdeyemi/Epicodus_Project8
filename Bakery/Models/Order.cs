@@ -31,5 +31,10 @@ namespace Bakery.Models
     {
       return _instances;
     }
+
+    public static Order Find(int searcId)
+    {
+      return _instances[0];
+    }
   }
 }

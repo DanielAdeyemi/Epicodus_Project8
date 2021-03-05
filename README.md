@@ -38,11 +38,14 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------: | :-------------: |
+|  |  | ***Constractors*** |  |  |
 | 01 | Create a constractor for order w/properties| "Bread" | Title: Bread | ✅ |
 | 02 | Create a constractor for vendor | "AMC" | Name: AMC |✅ |
+|  |  | ***Order Model*** |  |  |
 | 03 | Return order's ID | order | 1 | ✅ |
 | 04 | Return list of orders | order1, order2 | List {order1, order2} | ✅ |
 | 05 | Find an order by Id | find(id = 2) | order2 | ❌ |
+|  |  | ***Vendor Model*** |  |  |
 | 06 |  | |  | ❌  |
 
 
