@@ -38,9 +38,9 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------: | :-------------: |
-| 01 | create a constractor for order w/properties| "Bread" | Title: Bread | ❌ |
-| 02 | create a constractor for vendor | "AMC" | Name: AMC | ❌ |
-| 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| 5 | ✅ |
+| 01 | create a constractor for order w/properties| "Bread" | Title: Bread | ✅ |
+| 02 | create a constractor for vendor | "AMC" | Name: AMC |✅ |
+<!-- | 03 | if user inserts 1 loaf of bread display $5 | Bread:1 Pastry: 0| 5 | ❌  |
 | 04 | if user inserts 1 pastry display $2 | Bread:0 Pastry: 1| 2 | ✅ |
 | 05 | if user inserts 1 pastry and 1 bread display $7 | Bread:1 Pastry: 1| 7 | ✅ |
 | 06 | if user inserts 2 loaves of bread display 10 | Bread:2 Pastry: 0 | 10  | ✅|
@@ -50,7 +50,7 @@ ___
 | 10 | if user inserts 3 pastries display 5| Bread: 0 Pastry: 3  | 5 | ✅|
 | 11 | if user inserts 3 loaves of bread and 3 pastries display 15| Bread: 3 Pastry: 3  | 15 | ✅ |
 | 12 | if user inserts more than 3 loaves of bread  display correct price |  Bread: 10 Pastries: 0 | 35 | ✅|
-| 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | 17 | ✅|
+| 13 | if user inserts more than 3 pastries  display correct price |  Bread: 0 Pastries: 10 | 17 | ✅| -->
 
 </details>
 
