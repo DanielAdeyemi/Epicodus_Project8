@@ -15,10 +15,18 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
+    public void VendorConstructor_CreatesInstanceOfVendor_StringName()
     {
-      Vendor newVendor = new Vendor("test", "Vendor");
+      Vendor newVendor = new Vendor("AMC", "Vendor");
       Assert.AreEqual("AMC", newVendor.Name);
+    }
+
+    [TestMethod]
+    public void GetId_ReturnsVendorId_One()
+    {
+      Vendor newVendor = new Vendor("AMC", "Vendor");
+      int result = newVendor.Id;
+      Assert.AreEqual(2, result);
     }
   }
 }
