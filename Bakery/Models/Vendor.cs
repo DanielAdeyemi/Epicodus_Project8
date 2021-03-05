@@ -26,7 +26,7 @@ namespace Bakery.Models
 
     public static List<Vendor> GetAll()
     {
-      return new List<Vendor> {};
+      return _instances;
     }
   }
 }
