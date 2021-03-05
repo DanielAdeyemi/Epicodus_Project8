@@ -35,8 +35,7 @@ namespace Bakery.Tests
 			Order order2 = new Order("Pastry", "7 paistries for kids", "3/05", 30);
 			List<Order> newList = new List<Order> {order1, order2};
 			List<Order> result = Order.GetAll();
-
-      Assert.AreEqual(newList, result);
+      CollectionAssert.AreEqual(newList, result);
     }
 
   }
