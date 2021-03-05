@@ -16,7 +16,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void OrderConstractor_CreateInstanceOfOrder_Order()
     {
-			Order newOrder = new Order("test", "wow", "3/05");
+			Order newOrder = new Order("Bread", "wow", "3/05");
 			Assert.AreEqual("Bread" ,newOrder.Title);
     }
   }
