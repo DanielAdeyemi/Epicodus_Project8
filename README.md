@@ -46,7 +46,10 @@ ___
 | 04 | Return list of orders | order1, order2 | List {order1, order2} | ✅ |
 | 05 | Find an order by Id | find(id = 2) | order2 | ✅ |
 |  |  | ***Vendor Model*** |  |  |
-| 06 |  | |  | ❌  |
+| 07 | Return vendor's ID | vendor | 1 | ❌  |
+| 08 | Return list of Vendors | vendor1, vendor2 | List{vendor1, vendor2} | ❌  |
+| 09 | Find Vendor by Id | find(id = 2) | vendor2 | ❌  |
+| 10 | Associate order with Vendor | order1, vendor1 | vendor1(order1) | ❌  |
 
 
 </details>
@@ -60,8 +63,10 @@ ___
 *GitHub page is not available for this project. To view functionality you need to run `dotnet run` from **Bakery** folder and pass requested information.*
 
 ## 🛠️ *Technologies used:*
-* C#9
+* C# 9
 * .NET Core v5.0
+* ASP.NET MVC
+* Bootstrap v.4.6.x
 * MSTest
 * REPL
 * Git and GitHub
