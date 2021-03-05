@@ -25,7 +25,7 @@ namespace Bakery.Tests
     {
       Order newOrder = new Order("Bread", "wow", "3/05", 22);
 			int result = newOrder.Id;
-      Assert.AreEqual(2, result);
+      Assert.AreEqual(1, result);
     }
 
   }
