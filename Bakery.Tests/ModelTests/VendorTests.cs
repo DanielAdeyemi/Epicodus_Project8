@@ -26,7 +26,7 @@ namespace Bakery.Tests
     {
       Vendor newVendor = new Vendor("AMC", "Vendor");
       int result = newVendor.Id;
-      Assert.AreEqual(2, result);
+      Assert.AreEqual(1, result);
     }
   }
 }
