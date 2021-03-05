@@ -12,11 +12,12 @@ namespace Bakery.Models
     public string Date { get; set; }
     private static List<Order> _instances = new List<Order> {};
 
-    public Order(string title, string description, string date)
+    public Order(string title, string description, string date, decimal price)
     {
       Title = title;
       Description = description;
       Date = date;
+      Price = price;
       _instances.Add(this);
       Id = _instances.Count;
     }
@@ -26,5 +27,9 @@ namespace Bakery.Models
       _instances.Clear();
     }
 
+    public static List<Order> GetAll()
+    {
+      return null;
+    }
   }
 }

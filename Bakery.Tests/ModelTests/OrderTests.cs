@@ -28,5 +28,16 @@ namespace Bakery.Tests
       Assert.AreEqual(1, result);
     }
 
+    [TestMethod]
+    public void GetAll_ReturnOrders_OrderList()
+    {
+      Order order1 = new Order("Bread", "wow", "3/05", 22);
+			Order order2 = new Order("Pastry", "7 paistries for kids", "3/05", 30);
+			List<Order> newList = new List<Order> {order1, order2};
+			List<Order> result = Order.GetAll();
+
+      Assert.AreEqual(newList, result);
+    }
+
   }
 }

@@ -40,10 +40,9 @@ ___
 | :------------- | :------------- | :------------- | :------------: | :-------------: |
 | 01 | Create a constractor for order w/properties| "Bread" | Title: Bread | ✅ |
 | 02 | Create a constractor for vendor | "AMC" | Name: AMC |✅ |
-| 03 | Return order's ID | order | 1 | ❌  |
-| 04 | Set description for an order, price and date of order | order("Bread", "French bread 5 loaves", "3/05", 22)| Price: 22 | ❌  |
-| 05 | Return list of orders | order1, order2 | List {order1, order2} | ❌  |
-| 06 | Find an order by Id | find(id = 2) | order2 | ❌ |
+| 03 | Return order's ID | order | 1 | ✅ |
+| 04 | Return list of orders | order1, order2 | List {order1, order2} | ❌  |
+| 05 | Find an order by Id | find(id = 2) | order2 | ❌ |
 | 06 |  | |  | ❌  |
 
 
