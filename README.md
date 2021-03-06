@@ -14,8 +14,8 @@ ___
 
 ___
 ## 🚩 *Description*:    
-### *Want to try some delicious pastry or have fresh bread in your house? Check our app to know all about it (we also have special offers right now)*
-##### *An MVC app to track the vendors that purchase baked goods and orders belonging to those vendors.*
+### *Time to follow your orders!*
+##### *An MVC app to track the vendors that purchase baked goods and order belonging to those vendors. User will be able to create vendors and different orders inside specific vendor as well as see details of order and navigate between different pages. This project demonstrates knowledge of using Razor, MVC and other concepts to successfully build web application.*
 
 
 ## 🔧 *Setup/Installation instructions:*
@@ -37,7 +37,7 @@ ___
 <summary>🚥 Tests</summary>
 
 | # | Behavior | Input |  Output | Complete |
-| :------------- | :------------- | :------------- | :------------: | :-------------: |
+| :------------- | :------------- | :-------------: | :------------: | :-------------: |
 |  |  | ***Constractors*** |  |  |
 | 01 | Create a constractor for order w/properties| "Bread" | Title: Bread | ✅ |
 | 02 | Create a constractor for vendor | "AMC" | Name: AMC |✅ |
@@ -60,23 +60,27 @@ ___
 * At this point you should be able to successfully run `dotnet test` in the command line (keep in mind you should still be in the Bakery.Tests folder).
 
 ####  🖥️ View website:
-*GitHub page is not available for this project. To view functionality you need to run `dotnet run` from **Bakery** folder and pass requested information.*
+*GitHub page is not available for this project. To view functionality you need to run `dotnet run` from **Bakery** folder. After that you will see `http://localhost:5000`, click on that link and it will open web appliction in your default browser. In order to exit from local host use **Ctrl+C** command.*
 
 ## 🛠️ *Technologies used:*
 * C# 9
 * .NET Core v5.0
 * ASP.NET MVC
+* Razor View Egine
+* RESTful Routing, CRUD & HTTP
+* CSHTML
 * Bootstrap v.4.6.x
 * MSTest
 * REPL
 * Git and GitHub
 
 ## 🐛 *Known bugs:*
-This project was used to practice TDD in C# with MSTest and only can be executed in a terminal.
+This project was used to practice building web applications with ASP.NET MVC and Razor. Application doesn't use any database, so all data will be deleted as soon as app is closed. 
 
 ## 🌟 *Improvement opportunities:*
-* add error handling for more detailed message what went wrong
-* use more abstractions
+* add more style to the pages
+* use more routes to navigate between data within order/ vendor
+
 
 ## 📬 Contact Information
 #### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
