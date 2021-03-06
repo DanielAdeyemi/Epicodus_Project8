@@ -5,6 +5,10 @@
 }
 
 <h2>Here are all orders for this vendor:</h2>
+@if (@Model["orders"].Count == 0)
+{
+  <h3>No orders have been made yet!</h3>
+}
 <ol>
   @foreach (Order order in Model["orders"])
   {
