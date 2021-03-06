@@ -15,7 +15,7 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void VendorConstructor_CreatesInstanceOfVendor_StringName()
+    public void VendorConstructor_CreatesInstanceOfVendor_StringNameAMC()
     {
       Vendor newVendor = new Vendor("AMC", "Vendor");
       Assert.AreEqual("AMC", newVendor.Name);
